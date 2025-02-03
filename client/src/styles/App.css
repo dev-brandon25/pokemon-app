@@ -1,0 +1,46 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+.pokemon-starter {
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid red;
+  width: 600px;
+  margin: 0 auto;
+}
+.pokemon-name {
+  display: flex;
+  margin: 0 auto;
+  border: 2px solid red;
+  width: 600px;
+  justify-content: center;
+}
+
+.pokemon-stat {
+  display: flex;
+  border: 2px solid red;
+  justify-content: space-evenly;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.pokemon-types {
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid red;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.pokemon-abilities {
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid red;
+  width: 600px;
+  margin: 0 auto;
+  list-style: none;
+}
