@@ -3,7 +3,7 @@ import PokemonStat from "./PokemonStat";
 import PokemonAbilities from "./PokemonAbilities";
 
 function Details({ selectedStarter, capitalize }) {
-  let description = <p>please choose your starter</p>;
+  let description = <p>Please choose your starter</p>;
 
   if (selectedStarter) {
     const types = [...selectedStarter.types];
